@@ -48,7 +48,7 @@ flutter run
 
 Как открыть экран: длинный тап по заголовку AppBar («Rick & Morty Characters»).
 
-На экране:
+На экране пример(https://drive.google.com/file/d/11-rmYLOAYquQvmvXw2QO3YnWL-ZO9ZRF/view?usp=sharing):
 - Enable Proxy (вкл/выкл)
 - Host и Port
 - «Применить» — сразу настраивает `HttpOverrides.global` и текущий экземпляр `Dio`
