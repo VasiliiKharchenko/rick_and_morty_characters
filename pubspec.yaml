@@ -1,0 +1,25 @@
+name: rick_and_morty_app
+description: Rick & Morty Characters — REST + BLoC + SQLite, оффлайн и избранное, dev HTTP Proxy (Charles)
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  dio: ">=5.0.0 <6.0.0" 
+  flutter_bloc: ">=8.0.0 <9.0.0"
+  sqflite: ">=2.0.0 <3.0.0"
+  path: ">=1.8.0 <2.0.0"
+  path_provider: ">=2.0.0 <3.0.0"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
